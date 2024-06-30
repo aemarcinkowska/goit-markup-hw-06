@@ -1,0 +1,1220 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    width: 320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/***************** NAGŁÓWEK *****************/
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+
+.navigation_container {
+    display: flex;
+    align-items: center;
+}
+
+.logo_header {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 149px;
+    color: #404bbf;
+
+}
+
+.logo_part_header {
+    color: #2e2f42;
+}
+
+.logo_part_footer {
+    color: #F4F4FD;
+}
+
+.navigation_section,
+.address {
+    display: none;
+}
+
+
+.burger_line {
+    width: 1.05em;
+    height: 0.15em;
+    background-color: #2F2F37;
+    margin: 0.225em;
+    border-radius: 20px;
+}
+
+.hamburger_menu {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/***************** KONIEC NAGŁÓWEK *****************/
+
+/***************** SEKCJA 1 *****************/
+
+.container_main_section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.section-one {
+    background-color: #2E2F42;
+    justify-content: center;
+    padding: 72px 0;
+    min-width: 320px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.main_text {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-align: center;
+    max-width: 216px;
+    justify-content: center;
+    padding-bottom: 72px;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    border-color: #4D5AE5;
+    cursor: pointer;
+    width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.button:hover {
+    background-color: #404BBF;
+    border-color: #404BBF;
+}
+
+.button:focus {
+    background-color: #404BBF;
+    border-color: #404BBF;
+}
+
+/***************** KONIEC SEKCJA 1 *****************/
+
+/***************** SEKCJA 2 *****************/
+
+ .visually-hidden {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     margin: -1px;
+     border: 0;
+     padding: 0;
+     white-space: nowrap;
+     clip-path: inset(100%);
+     clip: rect(0 0 0 0);
+     overflow: hidden;
+ }
+
+ .company_values_section {
+    padding: 96px 16px 0;
+
+ }
+
+ .icon_company_values{
+    display: none;
+ }
+
+ .company_values {
+     list-style: none;
+     text-align: left;
+     justify-content: center;
+     align-items: center;
+     min-width: 288px;
+ }
+ .company_values_container{
+    padding: 0;
+ }
+
+ .company_values_header {
+     font-family: inherit;
+     font-weight: 500;
+     font-size: 36px;
+     letter-spacing: 0.02em;
+     line-height: 1.2;
+     color: #2E2F42;
+     margin-bottom: 8px;
+     justify-content: center;
+     display: flex;
+ }
+
+ .company_values_text {
+     font-family: inherit;
+     font-weight: medium;
+     line-height: 24px;
+     font-size: 16px;
+     letter-spacing: 0.02em;
+     color: inherit;
+     margin-bottom: 72px;
+     color: #434455;
+ }
+ .company_values_list:last-child{
+    margin-bottom: 0;
+ }
+
+ /***************** KONIEC SEKCJA 2 *****************/
+
+ /***************** SEKCJA 3 *****************/
+
+ .our_team {
+     background-color: #F4F4FD;
+     margin-top: auto;
+     text-align: center;
+     padding: 96px 0;
+     justify-content: center;
+     display: grid;
+ }
+
+ .header_of_main_section {
+     font-family: inherit;
+     font-weight: bold;
+     font-size: 36px;
+     letter-spacing: 0.02em;
+     text-align: center;
+     line-height: 1.11;
+     text-transform: capitalize;
+     color: #2e2f42;
+     margin-bottom: 72px;
+
+ }
+
+ .workers_list,
+ .portfolio_list,
+ .list_icons {
+     list-style: none;
+ }
+
+ .our_team_container{
+    padding: 0;
+ }
+
+ .worker {
+     background-color: #FFFFFF;
+     text-align: center;
+     border-radius: 0px 0px 4px 4px;
+     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+         0px 1px 1px rgba(46, 47, 66, 0.16),
+         0px 2px 1px rgba(46, 47, 66, 0.08);
+    align-content: center;
+    max-width: 264px;
+    margin-bottom: 72px;
+    margin-left: 28px;
+ }
+
+ .worker:last-child{
+    margin-bottom: 0;
+ }
+
+ .worker_container {
+    padding: 32px 0;
+ }
+
+ .worker_name {
+     color: #2e2f42;
+     font-family: inherit;
+     font-size: 20px;
+     font-weight: 500;
+     letter-spacing: 0.02em;
+     line-height: 1.2;
+     text-align: center;
+     margin-bottom: 8px;
+ }
+
+ .worker_workplace {
+     color: #434455;
+     font-family: inherit;
+     font-size: 16px;
+     line-height: 24px;
+     font-weight: normal;
+     letter-spacing: 0.02em;
+     text-align: center;
+ }
+
+ .icon {
+     fill: #f4f4fd;
+ }
+
+ .social_media_icons {
+     display: flex;
+     justify-content: center;
+     gap: 24px;
+     list-style: none;
+     padding-top: 8px;
+ }
+
+ .list_icons {
+     width: 40px;
+     height: 40px;
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+ .icon_link {
+     width: 100%;
+     height: 100%;
+     background-color: #4d5ae5;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+ .icon_link:hover {
+     background-color: #404bbf;
+ }
+
+ .icon_link:focus {
+     background-color: #404bbf;
+ }
+
+ /***************** KONIEC SEKCJA 3 *****************/
+
+ /***************** SEKCJA 4 *****************/
+
+ .portfolio_section {
+     padding: 96px 0;
+ }
+
+ .portfolio {
+     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     margin-bottom: 48px;
+ }
+
+ .portfolio:hover .portfolio_image_paragraph {
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     transform: translate(0);
+ }
+
+ .portfolio:hover {
+     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+         0px 1px 1px rgba(46, 47, 66, 0.16),
+         0px 2px 1px rgba(46, 47, 66, 0.08);
+ }
+
+.portfolio_content {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+
+}
+
+.portfolio_title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.portfolio_details {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.portfolio_image_paragraph {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    color: #f4f4fd;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio_image {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+/***************** KONIEC SEKCJA 4 *****************/
+
+/***************** STOPKA *****************/
+
+.footer {
+    font-family: inherit;
+    text-align: center;
+    color: #F4F4FD;
+    background-color: #2E2F42;
+    padding: 96px 0;
+}
+
+.logo_footer {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    display: inline-block;
+}
+
+.footer_article {
+    font-size: 16px;
+    font-weight: normal; 
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    font-family: inherit;
+    max-width: 288px;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.container_footer_logo_part{
+    margin: 0 16px 72px 16px;
+}
+
+.social_media_footer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.list_of_social_media_icons {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.list_icons_footer {
+    width: 40px;
+    height: 40px;
+}
+
+
+.icon_link_footer {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon_link_footer:hover {
+    background-color: #31d0aa;
+}
+
+.icon_link_footer:focus {
+    background-color: #31d0aa;
+}
+
+.icon_footer {
+    fill: #f4f4fd;
+
+}
+
+.social_media_icons_footer{
+    margin-bottom: 72px;
+}
+
+.footer_newsletter{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe_label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.newsletter_email_space {
+    display: grid;
+    gap: 24px;
+}
+
+.newsletter_email {
+    width: 288px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding-left: 16px;
+}
+
+.E-mail {
+    color: #FFFFFF;
+}
+
+.subscribe_button {
+    max-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    align-self: center;
+    justify-self: center;
+    padding: 24px;
+}
+
+/***************** KONIEC STOPKA *****************/
+
+/***************** MODAL *****************/
+
+.modal_window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 288px;
+    min-height: 623px;
+    background: #fcfcfc;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
+}
+
+.close_button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close_button:hover {
+    background-color: #404bbf;
+    border: none;
+    fill: #ffffff
+}
+
+.close_button:focus {
+    background-color: #404bbf;
+    border: none;
+    fill: #ffffff;
+}
+
+.modal_window_header {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 16px;
+    margin-top: 72px;
+}
+
+.modal_contract_form {
+    margin-bottom: 8px;
+}
+
+.modal_contract_form_label {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.modal_contract_form_input {
+    position: relative;
+}
+
+.section_modal {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 38px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section_modal:focus {
+    border-color: #4D5AE5;
+}
+
+.icon_modal {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.comments_container {
+    margin-bottom: 16px;
+}
+
+.textarea_modal_container {
+    width: 100%;
+    height: 120px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 8px 16px;
+    outline: transparent;
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.textarea_modal_container:focus {
+    border-color: #4D5AE5;
+}
+
+.privacy_policy_container {
+    margin-bottom: 24px;
+}
+
+.privacy_policy_text {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
+
+.privacy_policy_checkbox {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
+.privacy_policy_input:checked+.privacy_policy_text .privacy_policy_checkbox {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
+
+.privacy_policy_link {
+    color: #4d5ae5;
+}
+
+.send_button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon_send {
+    margin-left: 16px;
+}
+
+.icon_close {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal_contract_form_input:focus-within {
+    fill: #4D5AE5;
+}
+
+.privacy_policy_input:checked+.privacy_policy_checkbox {
+    background-color: #404BBF;
+    border: none;
+    fill: #404bbf;
+}
+
+.section_modal::selection+.privacy_policy_checkbox {
+    border: 1px solid #404BBF;
+    fill: #404BBF;
+}
+
+.modal_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/***************** KONIEC MODAL *****************/
+
+/***************** HAMBURGER MENU *****************/
+
+.modal_container_burger_menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 640px; 
+    background-color: #ffffff;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal_window_burger_menu{
+    position: absolute;
+}
+
+.burger_close_button{
+    top: 0;
+    right: 0;
+    margin-top: 24px;
+    margin-left: 250px;
+    position: relative;
+}
+
+.navigation_burger_menu{
+    margin-left: 16px;
+    margin-top: 24px;
+}
+
+.navigation_section_burger_menu, .address_list_burger{
+    list-style: none;
+    display: block;
+}
+
+.navigation_option_burger{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 2%;
+    color: #2E2F42;
+    text-decoration: none;
+    display: grid;
+    margin-bottom: 40px;
+}
+
+.address_option_burger_menu {
+    text-decoration: none;
+    color: #434455;
+}
+
+.first_menu_burger_link {
+    position: relative;
+    color: #404BBF;
+}
+
+.first_menu_burger_list::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
+
+.address_list_burger {
+    margin-left: 16px;
+    margin-top: 128px;
+    display: grid;
+    gap: 24px;
+}
+
+.social_media_icons_menu_burger{
+    margin-left: 16px;
+    margin-top: 48px;
+}
+
+/***************** KONIEC HAMBURGER MENU *****************/
+
+/***************** TABLET *****************/
+
+@media screen and (min-width: 768px) {
+
+    .burger_menu_container {
+        display: none;
+    }
+
+    .container {
+        width: 768px;
+    }
+
+    .navigation_section,
+    .address {
+        display: flex;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .logo_header {
+        margin-right: 0;
+    }
+
+    .navigation_section {
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    display: flex; 
+    gap: 40px;
+    padding-right: 96px;
+    padding-left: 120px
+    }
+
+    .navigation_option {
+    text-decoration: none;
+    color: #2E2F42; 
+    padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .navigation_option:hover{
+    color:#404BBF 
+    }
+
+    .navigation_option:focus {
+    color: #404BBF
+    }
+
+    .navigation_option:active {
+    color:#404BBF;
+    text-decoration: underline;
+    }
+
+    .address {
+    font-style: normal;
+    }
+
+    .address_list {
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    gap: 40px;
+    }
+
+    .address_option {
+    text-decoration: none;
+    color: #2E2F42;
+    transition: color  250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .address_option:hover {
+    color: #404BBF;
+    }
+
+    .address_option:focus {
+    color: #404BBF;
+    }
+
+    .address_option:active {
+    color: #404BBF;
+    }
+
+    .section-one {
+    min-width: 768px;
+    }
+
+    .main_text {
+    max-width: 496px;
+    padding-bottom: 36px;
+    }
+
+    .company_values_section {
+    padding-bottom: 96px;
+    }
+
+    .company_values {
+    max-width: 736px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    .company_values_list {
+    max-width: 356px;
+    padding-right: 24px;
+    }
+
+    .additional_company_values_list {
+    padding-right: 0;
+    }
+
+    .workers_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    }
+
+    .worker:last-child {
+    margin-bottom: 72px;
+    }
+
+    .portfolio_section {
+    padding: 0;
+    margin: 96px 16px 96px 16px;
+    }
+
+    .portfolio_list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+    }
+
+    .portfolio {
+        width: calc((100% - 48px) / 2);
+        display:grid;
+    }
+
+    .footer {
+        text-align: left;
+    }
+
+    
+    .container_footer {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        column-gap: 24px;
+    }
+    
+    .container_footer_logo_part {
+        margin: 0;
+        margin-left: 108px;
+        float: left;
+        margin-bottom: 72px;
+    }
+
+
+    .footer_newsletter {
+        margin-left: 108px;
+    }
+
+    .newsletter_email_space {
+        display: inline-flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-self:right
+    }
+
+    .modal_container_burger_menu {
+        display: none;
+    }
+
+    .modal_window {
+        width: 408px;
+        max-height: 584px;
+        left: 45%;
+    }
+
+    .modal_window_header {
+        margin-top: 24px;
+    }
+}
+
+/***************** KONIEC TABLET *****************/
+
+/***************** DESKTOP *****************/
+
+@media screen and (min-width: 1158px) {
+
+    .burger_menu_container {
+        display: none;
+    }
+
+    .container {
+        width: 1158px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .navigation_container {
+        display: flex;
+        align-items: center;
+    }
+    
+    .navigation {
+        display: flex;
+        align-items: center;
+    }
+
+    .navigation_section {
+        padding-right: 0;
+        margin-right: 332px;
+        padding-left: 0;
+    }
+
+    .address_list {
+        display: inline-flex;
+    }
+
+    .logo_header {
+        margin-right: 76px;
+    }
+
+    .section-one {
+        background-color: #2E2F42;
+        justify-content: center;
+        padding: 188px 0;
+        min-width: 1158px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg), url(../images/people-office@2x.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .main_text {
+        font-size: 56px;
+        max-width: 496px;
+        padding-bottom: 48px;
+    }
+
+    .company_values {
+        min-width: 1158px;
+        gap: 24px;
+    }
+
+    .company_values_list {
+        width: calc((100% - 72px) / 4);
+        display: grid;
+        padding-right: 0;
+    }
+
+    .company_values_header {
+        font-size: 20px;
+        margin-right: 24px;
+        justify-content:left;
+    }
+    .company_values_text {
+        min-width: 264px;
+
+    } 
+
+    .icon_company_values {
+        display: flex;
+        height: 112px;
+        min-width: 264px;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+        border: 1px solid #8e8f99;
+        margin-bottom: 8px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .company_values_section {
+        padding: 120px 0;
+    }
+
+    #fake_header {
+    color:#FFFFFF;    
+    }
+
+    .our_team {
+        margin-left: 0;
+        padding: 120px 0;
+        display: flex;
+    }
+
+    .workers_list {
+        display: flex;
+        gap: 24px;
+        flex-wrap: nowrap
+    }
+
+     .worker {
+    margin-left: 0;
+    }
+
+    .portfolio_section {
+        padding: 120px 0 120px 0;
+        margin: 0;
+    }
+
+    .portfolio_list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
+    }
+
+    .portfolio {
+        width: calc((100% - 48px) / 3);
+        margin: 0;
+    }
+
+    .footer {
+        text-align: left;
+    }
+
+    .logo_footer {
+        margin-bottom: 16px;
+    }
+    
+
+    .footer_article {
+        max-width: 264px;
+    }
+
+    .container_footer_logo_part {
+        margin: 0;
+        margin-right: 120px
+    }
+
+    .social_media_icons_footer {
+        margin-bottom: 0;
+        margin-right: 50px;
+    }
+
+    .list_of_social_media_icons {
+        margin-right: 0;
+    }
+
+    .container_footer {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    
+    .newsletter_email {
+        width: 264px;
+    }
+
+    .newsletter_email_space {
+        display: flex;
+    }
+
+    .footer_newsletter {
+        margin-left: 0;
+    }
+    
+    .subscribe_label {
+        margin-bottom: 0;
+    }
+
+
+    .modal_window {
+        width: 408px;
+        min-height: 584px;
+    }
+
+        .modal_window_header {
+            line-height: 1.5;
+            margin-bottom: 16px;
+            margin-top: 0;
+        }
+}
+
+/***************** KONIEC DESKTOP *****************/
+
+@media (min-resolution: 192dpi) {
+    .box {
+        background-image: url(../images/people-office@2x.jpg);
+    }
+}
